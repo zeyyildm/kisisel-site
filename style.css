@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(69, 40, 6), rgb(230, 202, 154)), url(./gorseller/pcresmi.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+   
+    background-color: rgb(230, 202, 154,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.box-info {
+ 
+    color: rgb(239, 235, 229);
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.info-top{
+    
+color: rgb(96, 47, 5);
+padding-bottom: 50px;
+}
+
+.info-top p:first-of-type{
+    margin-top: 15px;
+}
+
+.info-top h3{
+    font-size: 40px;
+    font-style:initial;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.info-buttom{
+}
+
+.info-buttom i{
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+    border-radius: 50%;
+    transition: 0.8s;
+   color: rgb(96, 47, 5)
+
+}
+
+.info-buttom i:first-of-type{
+    margin-left: 105px;
+    margin-right: 20px;
+}
+
+.info-buttom i:hover{
+    transform: translateY(-10px);
+    color: black;
+}
+
+
+.fotografim-cerceve {
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.fotografim {
+    border-radius: 50px;
+
+}
+
